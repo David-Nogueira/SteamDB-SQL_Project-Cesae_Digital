@@ -23,27 +23,56 @@
 </h2>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=2+-+Ask" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=2+-+Proposed+Statement" alt="Typing SVG" />
 </a>
 
-<p style="text-align: justify;">
-  This phase involves <strong>defining the issue to be solved</strong>, identifying stakeholders, and understanding their expectations for the project. 
-  The goal is to analyze how Cyclistic users behave and provide insights that will help shape marketing strategies aimed at increasing membership conversions.
-</p>
+<br>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=2.1+-+Guiding+Questions" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=2.1+-+Database+Requirements" alt="Typing SVG" />
 </a>
 
-<p style="text-align: justify;">
-  Three key questions will guide the analysis:
-</p>
+<ul style="text-align: justify;">
+<li>1 - Design a database with at least 8 interrelated tables</li>
+</ul>
 
 <ul style="text-align: justify;">
-  <li><strong>How do annual members and casual riders use Cyclistic bikes differently?</strong></li>
-  <li><strong>Why would casual riders buy Cyclistic annual memberships?</strong></li>
-  <li><strong>How can Cyclistic use digital media to influence casual riders to become members?</strong></li>
+<li>2 - Create in SQL:<br></li>
+  <ul>
+  <li>2.1 - Creation:<br></li>
+    <ul>
+    <li>2.1.1 - Database<br></li>
+    <li>2.1.2 - Tables<br></li>
+    </ul>
+  <li>2.2 - Deletion:<br></li>
+    <ul>
+    <li>2.2.1 - Database<br></li>
+    <li>2.2.2 - Tables<br></li>
+    <li>2.2.3 - Records<br></li>
+    </ul>
+  <li>2.3 - Modification:<br></li>
+    <ul>
+    <li>2.3.1 - Tables<br></li>
+    <li>2.3.2 - Records<br></li>
+    </ul>
+  <li>2.4 - Insert at least 10 records into each table<br></li>
+  <li>2.5 - Query creation:<br></li>
+    <ul>
+    <li>2.5.1 - 5 simples queries using criteria<br></li>
+    <li>2.5.2 - At least one cross query<br></li>
+    <li>2.5.3 - 4 queries using functions (Date, Mathematical, etc)<br></li>
+    <li>2.5.4 - Use of at least 8 functions<br></li>
+    <li>2.5.5 - Use of operators AND, OR, NOT, LIKE, IN, BETWEEN, etc<br></li>
+    <li>2.5.6 - Server protection against mass data deletion<br></li>
+    <li>2.5.7 - Triggers<br></li>
+    </ul>
+  </ul>
 </ul>
+
+
+
+
+
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=2.2+-+Stakeholders" alt="Typing SVG" />
