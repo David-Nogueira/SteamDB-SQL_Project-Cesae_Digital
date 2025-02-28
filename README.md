@@ -154,257 +154,121 @@ Let's look at some of the most used SQL and NoSQL databases:
   <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=4+-+Project+Description" alt="Typing SVG" />
 </a>
 
-<br>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=4.1+-+Data+Import+and+Combination" alt="Typing SVG" />
-</a>
+<p style="text-align: justify;">
+The SQL database project based on the SteamDB website consists of creating a database structure to store information related to games, DLCs, genres, developers, users, reviews, sales, events/promotions, live streams, and comments. Each table represents a main entity or an important aspect of the SteamDB ecosystem.<br>
+</p>
 
 <ul style="text-align: justify;">
-  <li>The <strong>CSV files</strong> containing the <strong>monthly trip data for 2024</strong> were imported into Power BI.</li>
-  <li>The <strong>end_station_id</strong> column was incorrectly recognized as a <strong>number</strong> instead of <strong>text</strong>, requiring adjustments.</li>
-  <li>Tables were renamed for readability, such as <strong>2024_01_January, 2024_02_February</strong>, etc.</li>
-  <li>All <strong>12 tables</strong> were merged into a single dataset: <strong>2024_All_Months_No_Clean</strong>, totaling <strong>5860538 rows</strong>.</li>
-</ul>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=4.2+-+Null+Values+and+Duplicates+Analysis" alt="Typing SVG" />
-</a>
-
-<ul style="text-align: justify;">
-  <li>A <strong>summary table</strong> was created to identify missing and blank values.</li>
-  <li>Columns with excessive missing data were removed:</li>
-  <ul>
-    <li><strong>start_station_name, start_station_id, end_station_name, end_station_id, end_lat, end_lng</strong></li>
-  </ul>
-  <li>This resulted in a refined dataset: <strong>2024_All_Months_First_Clean</strong>.</li>
-</ul>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=4.3+-+Creation+of+New+Columns" alt="Typing SVG" />
-</a>
-
-<ul style="text-align: justify;">
-  <li>Several new columns were created to enhance the dataset:</li>
-  <ul>
-    <li><strong>Duration (Minutes)</strong>: Difference between <em>ended_at</em> and <em>started_at</em>.</li>
-    <li><strong>Duration (Minutes:Seconds)</strong>: Conversion of duration into minutes and seconds.</li>
-    <li><strong>Day of Week (Number)</strong>: Numeric representation of the day.</li>
-    <li><strong>Day of Week (Name)</strong>: Name of the weekday.</li>
-    <li><strong>Month (Number)</strong>: Numeric representation of the month.</li>
-    <li><strong>Month (Name)</strong>: Name of the month.</li>
-  </ul>
-  <li>This led to a new dataset: <strong>2024_All_Months_First_Calculations</strong>.</li>
-</ul>
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=4.4+-+Outlier+Identification+and+Treatment" alt="Typing SVG" />
-</a>
-
-<ul style="text-align: justify;">
-  <li>A <strong>Maximum_Minimum_Duration</strong> table was created to detect extreme values.</li>
-  <li>Some trips had <strong>negative durations</strong> or lasted <strong>over 24 hours</strong>, indicating errors.</li>
-  <li>The dataset was filtered to retain only trips lasting <strong>between 1 minute and 24 hours</strong>, resulting in the final dataset: <strong>2024_All_Months_Final</strong>.</li>
-  <li>The final dataset contains <strong>5721442 rows</strong>.</li>
+  <li><strong>Table "jogos":</strong> Stores information about games, including name, publisher, release date, supported languages, genre, and developer.</li><br>
+  <li><strong>Table "dlcs":</strong> Contains details about additional content (DLCs) associated with games, such as name, publisher, release date, supported languages, genre, and developer.</li><br>
+  <li><strong>Table "generos":</strong> Maintains a list of game genres, such as action, adventure, RPG, etc.</li><br>
+  <li><strong>Table "desenvolvedores":</strong> Stores information about game developers, including name and country of origin.</li><br>
+  <li><strong>Table "utilizadores":</strong> Registers system users, including username, registration date, and associated games/DLCs.</li><br>
+  <li><strong>Table "analises":</strong> Stores reviews made by users for games/DLCs, including rating and review date.</li><br>
+  <li><strong>Table "vendas":</strong> Records sales of games/DLCs, including price, purchase date, and associated user.</li><br>
+  <li><strong>Table "eventospromocoes":</strong> Contains details about events and promotions related to games/DLCs, such as name, start/end dates, discounted price, and associated developer.</li><br>
+  <li><strong>Table "transmissaoaovivo":</strong> Stores information about live streams related to games/DLCs, including start/end dates and associated user.</li><br>
+  <li><strong>Table "comentarios":</strong> Registers comments made by users for games/DLCs, including comment text, comment date, and associated user.</li>
 </ul>
 
 <p style="text-align: justify;">
-At this stage, the data is <strong>cleaned, structured, and ready</strong> for further analysis and visualization in Power BI.
+This project provides a solid foundation for managing information related to the gaming universe, enabling queries, analysis, and tracking of various activities within the SteamDB environment.
 </p>
 
 <h2 align="left">
 </h2>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=5+-+Analize" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=5+-+Relational+Database+Model" alt="Typing SVG" />
+</a>
+
+![Relational_Database_Model](https://github.com/user-attachments/assets/badb7712-d7c3-471e-abd0-370ca688dd21)
+
+<h2 align="left">
+</h2>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=6+-+Project+Code" alt="Typing SVG" />
+</a>
+
+<p style="text-align: justify;">
+  The complete project code can be found in the PDF report, which contains the detailed implementation of the database, as well as in the SQL file available for download.
+</p>
+
+<ul style="text-align: justify;">
+  <li><a href="LINK_DO_PDF" download>Click here to download the PDF report</a></li>
+  <li><a href="LINK_DO_SQL" download>Click here to download the SQL file</a></li>
+</ul>
+
+<h2 align="left">
+</h2>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7+-+Data+Tables" alt="Typing SVG" />
 </a>
 
 <br>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=5.1+-+Summary+of+Trips+and+User+Types" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.1+-+Table+Jogos" alt="Typing SVG" />
 </a>
 
-![Summary_of_Trips_and_User_Types](https://github.com/user-attachments/assets/15583802-8fc1-4562-9ef6-4241c86bc8aa)
-
-<ul style="text-align: justify;">
-  <li><strong>Objective:</strong> Analyze the behavior of casual passengers and annual members, and understand their vehicle preferences.</li>
-</ul>
-
-<ul style="text-align: justify;">
-  <li><strong>Data:</strong><br></li>
-  <ul>
-  <li>Total Trips: 5721442 trips with a duration between 1 minute and 24 hours.<br></li>
-  <li>Long Trips (4h-24h): 8637 trips, which are rare events.<br></li>
-  <li>After this observation, a filter was applied to consider only trips with a duration of 1 minute to 4 hours.<br></li>
-  <li>Average Trip Duration: 14.88 minutes.</li>
-  </ul>
-</ul>
-
-<ul style="text-align: justify;">
-  <li><strong>Key Insights:</strong><br></li>
-  <ul>
-  <li><strong>Membership Type:</strong><br></li>
-    <ul>
-    <li>64% of users are annual members.<br></li>
-    <li>Members take shorter trips, with an average duration of 11,99 minutes.<br></li>
-    <li>Casuals have a longer average duration: 19,93 minutes.<br></li>
-    </ul>
-  <li><strong>Vehicle Type:</strong><br></li>
-    <ul>
-    <li>50,2% of trips are made using electric bikes.<br></li>
-    <li>Classic bikes have the highest average trip duration, with 17,37 minutes.</li>
-    </ul>
-  </ul>
-</ul>
+![Table_Jogos](https://github.com/user-attachments/assets/ceb15c07-6b26-40cd-acc7-7f3d7e18c3f9)
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=5.2+-+Analysis+of+Trip+Numbers" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.2+-+Table+DLCs" alt="Typing SVG" />
 </a>
 
-![Analysis_of_Trip_Numbers](https://github.com/user-attachments/assets/3492dc99-164a-4f78-81be-e5ffcc13be84)
-
-<ul style="text-align: justify;">
-  <li><strong>Objective:</strong> Identify patterns in the number of trips throughout the week and year, segmented by user type.</li>
-</ul>
-
-<ul style="text-align: justify;">
-  <li><strong>Data:</strong><br></li>
-  <ul>
-  <li>Total Trips: 5712804 trips with a duration between 1 minute and 4 hours.</li>
-  </ul>
-</ul>
-
-<ul style="text-align: justify;">
-  <li><strong>Insights:</strong><br></li>
-  <ul>
-  <li><strong>Weekly Distribution:</strong><br></li>
-    <ul>
-    <li>Members make more trips than casuals every day of the week.<br></li>
-    <li>Saturday is the day with the highest number of trips for casuals.<br></li>
-    <li>Wednesday is the day with the highest number of trips for members.<br></li>
-    <li> In total, Saturday is the day with the highest number of trips (897053 trips), while Tuesday has the lowest (764251 trips).<br></li>
-    </ul>
-  <li><strong>Monthly Distribution:</strong><br></li>
-    <ul>
-    <li>The number of trips increases from January to September, reaching a peak in September (798901 trips in total).<br></li>
-    <li>After September, there is a significant drop in trips, with the lowest number recorded in January (139884 trips).</li>
-    </ul>
-  </ul>
-</ul>
+![Table_DLCs](https://github.com/user-attachments/assets/c278a12d-186b-442f-ae2e-a995050f33b2)
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=5.3+-+Analysis+of+Average+Trip+Duration" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.3+-+Table+Generos" alt="Typing SVG" />
 </a>
 
-![Analysis_of_Average_Trip_Duration](https://github.com/user-attachments/assets/db600c28-3bf4-4b99-81d8-7550b8bcf7e3)
-
-<ul style="text-align: justify;">
-  <li><strong>Objective:</strong> Analyze the average trip duration by day of the week and month, segmented by user type.</li>
-</ul>
-
-<ul style="text-align: justify;">
-  <li><strong>Data:</strong><br></li>
-  <ul>
-  <li>Average Trip Duration: 14,88 minutes (considering trips from 1 minute to 4 hours).</li>
-  </ul>
-</ul>
-
-<ul style="text-align: justify;">
-  <li><strong>Insights:</strong><br></li>
-  <ul>
-  <li><strong>Weekly Distribution:</strong><br></li>
-    <ul>
-    <li>Casuals take longer trips, with peaks on the weekend.<br></li>
-    <li>Members have more stable trip durations, with a slight increase on weekends.<br></li>
-    <li>Highest average duration: Sunday (17,86 minutes).<br></li>
-    <li>Lowest average duration: Tuesday (13,06 minutes).<br></li>
-    </ul>
-  <li><strong>Monthly Distribution:</strong><br></li>
-    <ul>
-    <li>Casuals show strong variation, with trip duration peaking in May. From April to August, they travel with an average of over 20 minutes.<br></li>
-    <li>Members maintain a stable duration between 10 and 13 minutes.<br></li>
-    <li>Month with highest average duration: July.<br></li>
-    <li>Month with lowest average duration: January.</li>
-    </ul>
-  </ul>
-</ul>
-
-<h2 align="left">
-</h2>
+![Table Generos](https://github.com/user-attachments/assets/6e9574d8-84f7-43a9-ad83-b180b934f8c9)
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=6+-+Share" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.4+-+Table+Desenvolvedores" alt="Typing SVG" />
 </a>
 
-<p style="text-align: justify;">
-  The findings were shared and communicated with the relevant stakeholders.<br>
-  The sharing phase of this project was completed using Power BI for visualizations and a detailed PDF report containing all the analyses conducted.
-</p>
-
-<ul style="text-align: justify;">
-  <li><a href="https://github.com/David-Nogueira/Cyclistic-Bike-Share-Case-Study/raw/main/Cyclistic%20Bike%20Share%20-%20Google%20Data%20Analytics%20Capstone%20Project.pdf" download>Click here to download the PDF report</a></li>
-</ul>
-
-<p style="text-align: justify;">
-  This ensures that the key dashboards and insights are accessible for review and decision-making.
-</p>
-
-<h2 align="left">
-</h2>
+![Table_Desenvolvedores](https://github.com/user-attachments/assets/46615123-90ba-49c1-8fcc-7f7867abfde0)
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7+-+Act" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.5+-+Table+Utilizadores" alt="Typing SVG" />
 </a>
 
-<p style="text-align: justify;">
-  After analyzing the data and identifying key user behavior patterns, it is essential to define strategies to optimize service usage and increase the conversion of casual riders into annual members.
-</p>
+![Table_Utilizadores](https://github.com/user-attachments/assets/9d713795-b5b2-4e33-940b-2a29c24ec1cc)
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.1+-+Introduction+of+Monthly+and+Seasonal+Plans" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.6+-+Table+Vendas" alt="Typing SVG" />
 </a>
 
-<ul style="text-align: justify;">
-  <li>Currently, the company offers daily and annual passes, but data shows that casual riders use the service more frequently during warmer months (April to September).</li>
-  <li>A highly effective strategy would be to introduce a monthly or seasonal plan, encouraging these users to subscribe more consistently by offering progressive discounts that make the annual membership more attractive.</li>
-</ul>
+![Table_Vendas](https://github.com/user-attachments/assets/94930903-df47-43ed-bcb6-2a72ad2296c9)
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.2+-+Targeted+Engagement+Strategies" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.7+-+Table+EventosPromocoes" alt="Typing SVG" />
 </a>
 
-<ul style="text-align: justify;">
-  <li>Launch marketing campaigns highlighting the benefits of the annual membership, such as cost-effectiveness and access to exclusive promotions.</li>
-  <li>Offer a one-month free trial during winter, when fewer trips are made, to encourage casual riders to experience the benefits of membership.</li>
-</ul>
+![Table_EventosPromocoes](https://github.com/user-attachments/assets/3e41060f-7fef-4572-bd12-380279d6013b)
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.3+-+Incentives+and+Loyalty+Programs" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.8+-+Table+TransmissaoAoVivo" alt="Typing SVG" />
 </a>
 
-<ul style="text-align: justify;">
-  <li>Implement a loyalty points system, where each ride accumulates points that can be redeemed for discounts on an annual subscription.</li>
-  <li>Introduce a user ranking system, rewarding frequent riders with benefits such as free rides or exclusive perks.</li>
-</ul>
+![Table_TransmissaoAoVivo](https://github.com/user-attachments/assets/80fb297f-5827-447e-86e1-9d9b4fef2898)
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.4+-+Location-Based+Marketing+Campaigns" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.9+-+Table+Comentarios" alt="Typing SVG" />
 </a>
 
-<ul style="text-align: justify;">
-  <li>Use data from the most popular stations among casual riders to install billboards and posters, promoting annual memberships.</li>
-  <li>Launch geo-targeted digital marketing campaigns to ensure advertisements reach users who frequently use the service in these locations.</li>
-</ul>
+![Table_Comentarios](https://github.com/user-attachments/assets/52442206-8a07-45df-a7a7-1c14c4afd33e)
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.5+-+Strategies+to+Maximize+Bike+Usage" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=7.10+-+Table+Analises" alt="Typing SVG" />
 </a>
 
-<ul style="text-align: justify;">
-  <li>Since classic bikes have the highest average trip duration (17.37 minutes), offering exclusive benefits for using them could help balance fleet utilization.</li>
-  <li>Adjust bike distribution based on usage patterns throughout the week, ensuring sufficient availability during peak periods.</li>
-</ul>
+![Table_Analises](https://github.com/user-attachments/assets/7e44f036-7e69-4c2a-8052-1a1fafbbdd34)
+
 
 <h2 align="left">
 </h2>
@@ -413,10 +277,12 @@ At this stage, the data is <strong>cleaned, structured, and ready</strong> for f
   <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=8+-+Conclusion" alt="Typing SVG" />
 </a>
 
-<ul style="text-align: justify;">
-  <li>The analysis of Cyclistic's data revealed clear patterns in user behavior: members use bikes consistently throughout the week, while casual riders concentrate their usage on weekends and warmer months. The preference for electric bikes and the differences in trip duration between the two groups highlight the need for targeted strategies.</li>
-  <li>To maximize the conversion of casual riders into members, we recommend seasonal promotional campaigns, weekend-specific incentives, and improvements to the experience of classic bikes. These initiatives can drive membership growth and optimize company revenue.</li>
-</ul>
+<p style="text-align: justify;">
+This SQL database project, based on the SteamDB website, presents a comprehensive structure for storing and managing information related to games, DLCs, and associated activities. The implementation of this project took some time and effort, as I had no prior experience or skills in SQL development, and due to the complexity involved in certain functionalities.<br><br>
+In terms of time, the initial implementation of the database schema and main tables might have been faster, especially if I were already familiar with SQL and data modeling. However, it was the creation of advanced queries and triggers that consumed the most time, particularly to ensure data integrity.<br><br>
+Regarding difficulty, this project presented several challenges, especially when dealing with complex relationships between tables and ensuring data consistency. Proper database modeling required careful attention to detail to avoid potential issues.<br><br>
+In summary, although this project provides a solid foundation for managing information related to games and associated activities, successful implementation requires careful planning, strong technical skills, and attention to detail to overcome potential challenges and limitations.
+</p>
 
 <h2 align="left">
 </h2>
