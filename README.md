@@ -69,62 +69,89 @@
   </ul>
 </ul>
 
-
-
-
-
-
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=2.2+-+Stakeholders" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=2.2+-+Report+Structure" alt="Typing SVG" />
 </a>
 
 <ul style="text-align: justify;">
-  <li><strong>Lily Moreno</strong>: Director of Marketing, responsible for developing campaigns and initiatives to promote the bike-share program.</li>
-  <li><strong>Marketing Analytics Team</strong>: Collects, analyzes, and reports data to guide Cyclistic’s marketing strategies.</li>
-  <li><strong>Executive Team</strong>: Evaluates and approves recommendations based on data-driven insights.</li>
+<li>1 - Introduction</li>
+<ul>
+  <li>Characteristics of database servers, particularly MySQL Server<br></li>
+  <li>Comparison with other servers like SQL Server, etc<br></li>
+</ul>  
+<li>2 - Project Description</li>
+<li>3 - Relational Database Model</li>
+<li>4 - Project Code</li>
+<li>5 - Data Tables</li>
+<li>6 - Conclusion</li>
+<li>7 - Bibliography</li>
 </ul>
+
 
 <h2 align="left">
 </h2>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3+-+Prepare" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3+-+Introduction" alt="Typing SVG" />
 </a>
 
 <br>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3.1+-+Data+Source+and+Privacy" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3.1+-+What+is+Structured+Query+Language+(SQL)?" alt="Typing SVG" />
 </a>
 
 <p style="text-align: justify;">
-  The data was provided by <strong>Motivate International Inc.</strong> and can be accessed <a href="https://divvy-tripdata.s3.amazonaws.com/index.html">here</a> under this <a href="https://ride.divvybikes.com/data-license-agreement">license</a>. 
-  Riders' personal information has been removed to ensure privacy.
+SQL is a programming language used by almost all relational databases to query, manipulate, and define data and to provide access control. SQL was first developed at IBM in the 1970s, with Oracle as one of the main contributors, which led to the implementation of the ANSI SQL standard. SQL has driven many extensions from companies such as IBM, Oracle, and Microsoft. Although SQL is still widely used today, new programming languages are beginning to emerge <sup>[1]</sup>.<br>
 </p>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3.2+-+Data+Organization+and+Limitations" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3.2+-+What+is+Database+Software?" alt="Typing SVG" />
 </a>
 
 <p style="text-align: justify;">
-  The dataset includes records from <strong>January to December 2024</strong>, containing thousands of monthly trip details. 
-  During data processing, missing values were identified and handled accordingly.
+Database software is used to create, edit, and maintain database files and records, allowing for easier file and record creation, data entry, data editing, updating, and report generation. The software also handles data storage, backup and report generation, multi-access control, and security. Strong database security is especially important today, as data theft becomes more frequent. Sometimes, database software is also referred to as a "database management system" (DBMS) <sup>[1]</sup>.<br>
+Database software simplifies data management by allowing users to store data in a structured way and then access it. It usually features a graphical interface that helps create and manage data, and in some cases, users can build their own databases using database software <sup>[1]</sup>.<br>
 </p>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3.3+-+Tools+Used" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3.3+-+What+is+a+Database+Management+System+(DBMS)?" alt="Typing SVG" />
 </a>
 
+<p style="text-align: justify;">
+A database usually requires a comprehensive database software program, known as a Database Management System (DBMS). A DBMS acts as an interface between the database and its users or end programs, allowing users to retrieve, update, and manage how information is organized and optimized. The DBMS also facilitates database supervision and control, enabling a variety of administrative operations, such as performance monitoring, optimization, backup, and recovery <sup>[1]</sup>.<br>
+Some examples of popular database software, or DBMSs, include MySQL, Microsoft Access, Microsoft SQL Server, FileMaker Pro, Oracle Database, and dBASE <sup>[1]</sup>.<br>
+</p>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3.4+-+What+is+a+MySQL+Database?" alt="Typing SVG" />
+</a>
+
+<p style="text-align: justify;">
+MySQL is an open-source relational database management system based on SQL. It was designed and optimized for web applications and can run on any platform. As new and different requirements emerged with the Internet, MySQL became the platform of choice for developers and web-based applications. Since it was designed to handle millions of queries and thousands of transactions, MySQL is a popular choice for e-commerce companies that need to manage multiple financial transactions. On-demand flexibility is MySQL’s key feature <sup>[1]</sup>.<br>
+MySQL is the DBMS behind some of the world's leading websites and web-based applications, including Airbnb, Uber, LinkedIn, Facebook, Twitter, and YouTube <sup>[1]</sup>.<br>
+</p>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3.5+-+Types+of+Databases" alt="Typing SVG" />
+</a>
+
+<p style="text-align: justify;">
+First, you must determine when to choose a relational database over a non-relational database and vice versa. Since SQL databases are structured, they are perfect for handling transactions, records, and libraries. NoSQL databases have the capability to support all forms of data, including text, images, IoT notifications, and other types of big data. Both SQL and NoSQL databases readily provide their respective data formats for search and analysis <sup>[2]</sup>.<br>
+Let's look at some of the most used SQL and NoSQL databases:
+</p>
 <ul style="text-align: justify;">
-  <li><strong>Data Processing & Cleaning:</strong> Power BI</li>
-  <li><strong>Visualization:</strong> Power BI</li>
+<li><strong>SQL Server:</strong> SQL database services are typically built on a relational database management system, and many benefit from cloud computing capabilities. Azure SQL, for example, is a family of managed SQL database services built on the SQL Server database engine and hosted in the Azure cloud <sup>[2]</sup>.<br></li>
+<li><strong>PostgreSQL:</strong> PostgreSQL is an advanced object-relational database management system (ORDBMS) that stores and scales workloads too complex to be supported by standard systems. A cloud-based PostgreSQL service, such as Azure Database for PostgreSQL, offers additional enterprise-grade features and extensibility, along with support from the PostgreSQL open-source community <sup>[2]</sup>.<br></li>
+<li><strong>MySQL:</strong> MySQL is one of the most popular and widely used open-source relational database management systems in modern application development. Unlike SQL, MySQL is software rather than a language. A managed MySQL database service, such as Azure Database for MySQL, allows you to provision a database in minutes and scale just as quickly <sup>[2]</sup>.<br></li>
+<li><strong>NoSQL:</strong> NoSQL database services enable users to develop modern, high-performance, and reactive applications at any size or scale. They also support a wide range of open-source databases. Azure Cosmos DB supports PostgreSQL, MongoDB, and Apache Cassandra, is fully managed, and is capable of automatic updates and auto-scaling <sup>[2]</sup>.<br></li>
 </ul>
 
 <h2 align="left">
 </h2>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=4+-+Process" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=4+-+Project+Description" alt="Typing SVG" />
 </a>
 
 <br>
