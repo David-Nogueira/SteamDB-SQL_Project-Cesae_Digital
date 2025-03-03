@@ -12,7 +12,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=1+-+Contextualization" alt="Typing SVG" />
 </a>
 
-<p style="text-align: justify;">
+<p align="justify">
   This project was developed as part of the Data Analyst course at CESAE Digital, with the goal of consolidating SQL knowledge through the creation of a relational database and the execution of various structured operations and queries.<br><br>
   Each student had the autonomy to choose the theme of the database to be developed, and this project focuses on building a database inspired by the SteamDB platform.<br><br>
   The following report was originally written in European Portuguese, including both the SQL database implementation and the detailed project documentation. However, for portfolio purposes, the report has been restructured and translated into English, while maintaining the original table and column names.<br><br>
@@ -32,7 +32,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=2.1+-+Database+Requirements" alt="Typing SVG" />
 </a>
 
-<ul style="text-align: justify;">
+<ul align="justify">
 <li>1 - Design a database with at least 8 interrelated tables</li>
 </ul>
 
@@ -87,7 +87,6 @@
 <li>7 - Bibliography</li>
 </ul>
 
-
 <h2 align="left">
 </h2>
 
@@ -101,7 +100,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3.1+-+What+is+Structured+Query+Language+(SQL)?" alt="Typing SVG" />
 </a>
 
-<p style="text-align: justify;">
+<p align="justify">
 SQL is a programming language used by almost all relational databases to query, manipulate, and define data and to provide access control. SQL was first developed at IBM in the 1970s, with Oracle as one of the main contributors, which led to the implementation of the ANSI SQL standard. SQL has driven many extensions from companies such as IBM, Oracle, and Microsoft. Although SQL is still widely used today, new programming languages are beginning to emerge <sup>[1]</sup>.<br>
 </p>
 
@@ -109,7 +108,7 @@ SQL is a programming language used by almost all relational databases to query, 
   <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3.2+-+What+is+Database+Software?" alt="Typing SVG" />
 </a>
 
-<p style="text-align: justify;">
+<p align="justify">
 Database software is used to create, edit, and maintain database files and records, allowing for easier file and record creation, data entry, data editing, updating, and report generation. The software also handles data storage, backup and report generation, multi-access control, and security. Strong database security is especially important today, as data theft becomes more frequent. Sometimes, database software is also referred to as a "database management system" (DBMS) <sup>[1]</sup>.<br>
 Database software simplifies data management by allowing users to store data in a structured way and then access it. It usually features a graphical interface that helps create and manage data, and in some cases, users can build their own databases using database software <sup>[1]</sup>.<br>
 </p>
@@ -118,7 +117,7 @@ Database software simplifies data management by allowing users to store data in 
   <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3.3+-+What+is+a+Database+Management+System+(DBMS)?" alt="Typing SVG" />
 </a>
 
-<p style="text-align: justify;">
+<p align="justify">
 A database usually requires a comprehensive database software program, known as a Database Management System (DBMS). A DBMS acts as an interface between the database and its users or end programs, allowing users to retrieve, update, and manage how information is organized and optimized. The DBMS also facilitates database supervision and control, enabling a variety of administrative operations, such as performance monitoring, optimization, backup, and recovery <sup>[1]</sup>.<br>
 Some examples of popular database software, or DBMSs, include MySQL, Microsoft Access, Microsoft SQL Server, FileMaker Pro, Oracle Database, and dBASE <sup>[1]</sup>.<br>
 </p>
@@ -127,7 +126,7 @@ Some examples of popular database software, or DBMSs, include MySQL, Microsoft A
   <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3.4+-+What+is+a+MySQL+Database?" alt="Typing SVG" />
 </a>
 
-<p style="text-align: justify;">
+<p align="justify">
 MySQL is an open-source relational database management system based on SQL. It was designed and optimized for web applications and can run on any platform. As new and different requirements emerged with the Internet, MySQL became the platform of choice for developers and web-based applications. Since it was designed to handle millions of queries and thousands of transactions, MySQL is a popular choice for e-commerce companies that need to manage multiple financial transactions. On-demand flexibility is MySQL’s key feature <sup>[1]</sup>.<br>
 MySQL is the DBMS behind some of the world's leading websites and web-based applications, including Airbnb, Uber, LinkedIn, Facebook, Twitter, and YouTube <sup>[1]</sup>.<br>
 </p>
@@ -136,11 +135,11 @@ MySQL is the DBMS behind some of the world's leading websites and web-based appl
   <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=3.5+-+Types+of+Databases" alt="Typing SVG" />
 </a>
 
-<p style="text-align: justify;">
+<p align="justify">
 First, you must determine when to choose a relational database over a non-relational database and vice versa. Since SQL databases are structured, they are perfect for handling transactions, records, and libraries. NoSQL databases have the capability to support all forms of data, including text, images, IoT notifications, and other types of big data. Both SQL and NoSQL databases readily provide their respective data formats for search and analysis <sup>[2]</sup>.<br>
 Let's look at some of the most used SQL and NoSQL databases:
 </p>
-<ul style="text-align: justify;">
+<ul align="justify">
 <li><strong>SQL Server:</strong> SQL database services are typically built on a relational database management system, and many benefit from cloud computing capabilities. Azure SQL, for example, is a family of managed SQL database services built on the SQL Server database engine and hosted in the Azure cloud <sup>[2]</sup>.<br></li>
 <li><strong>PostgreSQL:</strong> PostgreSQL is an advanced object-relational database management system (ORDBMS) that stores and scales workloads too complex to be supported by standard systems. A cloud-based PostgreSQL service, such as Azure Database for PostgreSQL, offers additional enterprise-grade features and extensibility, along with support from the PostgreSQL open-source community <sup>[2]</sup>.<br></li>
 <li><strong>MySQL:</strong> MySQL is one of the most popular and widely used open-source relational database management systems in modern application development. Unlike SQL, MySQL is software rather than a language. A managed MySQL database service, such as Azure Database for MySQL, allows you to provision a database in minutes and scale just as quickly <sup>[2]</sup>.<br></li>
@@ -154,11 +153,11 @@ Let's look at some of the most used SQL and NoSQL databases:
   <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=4+-+Project+Description" alt="Typing SVG" />
 </a>
 
-<p style="text-align: justify;">
+<p align="justify">
 The SQL database project based on the SteamDB website consists of creating a database structure to store information related to games, DLCs, genres, developers, users, reviews, sales, events/promotions, live streams, and comments. Each table represents a main entity or an important aspect of the SteamDB ecosystem.<br>
 </p>
 
-<ul style="text-align: justify;">
+<ul align="justify">
   <li><strong>Table "jogos":</strong> Stores information about games, including name, publisher, release date, supported languages, genre, and developer.</li><br>
   <li><strong>Table "dlcs":</strong> Contains details about additional content (DLCs) associated with games, such as name, publisher, release date, supported languages, genre, and developer.</li><br>
   <li><strong>Table "generos":</strong> Maintains a list of game genres, such as action, adventure, RPG, etc.</li><br>
@@ -171,7 +170,7 @@ The SQL database project based on the SteamDB website consists of creating a dat
   <li><strong>Table "comentarios":</strong> Registers comments made by users for games/DLCs, including comment text, comment date, and associated user.</li>
 </ul>
 
-<p style="text-align: justify;">
+<p align="justify">
 This project provides a solid foundation for managing information related to the gaming universe, enabling queries, analysis, and tracking of various activities within the SteamDB environment.
 </p>
 
@@ -191,11 +190,11 @@ This project provides a solid foundation for managing information related to the
   <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=6+-+Project+Code" alt="Typing SVG" />
 </a>
 
-<p style="text-align: justify;">
+<p align="justify">
   The complete project code can be found in the PDF report, which contains the detailed implementation of the database, as well as in the SQL file available for download.
 </p>
 
-<ul style="text-align: justify;">
+<ul align="justify">
   <li><a href="https://github.com/David-Nogueira/SteamDB-SQL_Project-Cesae_Digital/raw/main/SteamDB%20-%20SQL%20Project%20-%20Cesae%20Digital.pdf" download>Click here to download the PDF report</a></li>
   <li><a href="https://github.com/David-Nogueira/SteamDB-SQL_Project-Cesae_Digital/raw/main/SteamDB%20-%20SQL%20Project%20-%20Cesae%20Digital.sql" download>Click here to view the SQL file</a></li>
 </ul>
@@ -277,7 +276,7 @@ This project provides a solid foundation for managing information related to the
   <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=8+-+Conclusion" alt="Typing SVG" />
 </a>
 
-<p style="text-align: justify;">
+<p align="justify">
 This SQL database project, based on the SteamDB website, presents a comprehensive structure for storing and managing information related to games, DLCs, and associated activities. The implementation of this project took some time and effort, as I had no prior experience or skills in SQL development, and due to the complexity involved in certain functionalities.<br><br>
 In terms of time, the initial implementation of the database schema and main tables might have been faster, especially if I were already familiar with SQL and data modeling. However, it was the creation of advanced queries and triggers that consumed the most time, particularly to ensure data integrity.<br><br>
 Regarding difficulty, this project presented several challenges, especially when dealing with complex relationships between tables and ensuring data consistency. Proper database modeling required careful attention to detail to avoid potential issues.<br><br>
