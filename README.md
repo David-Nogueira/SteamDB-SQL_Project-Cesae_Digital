@@ -286,6 +286,20 @@ In summary, although this project provides a solid foundation for managing infor
 <h2 align="left">
 </h2>
 
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&width=435&lines=9+-+Bibliography" alt="Typing SVG" />
+</a>
+
+<p style="text-align: justify;">
+[1] Oracle, O que é a Base de Dados?, consulted on February 19, 2024:<br>
+https://www.oracle.com/pt/database/what-is-database/<br><br>
+[2] Microsoft, O que é a Base de Dados SQL, consulted on February 18, 2024:<br>
+https://azure.microsoft.com/pt-pt/resources/cloud-computing-dictionary/what-is-sql-database
+</p>
+
+<h2 align="left">
+</h2>
+
 <p align="center">
   <a href="#top">
     <img src="https://readme-typing-svg.herokuapp.com?font=Electrolize&duration=1&pause=1&color=FF9900&repeat=false&center=true&vCenter=true&width=435&lines=Back+to+Top" alt="Typing SVG" />
