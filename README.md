@@ -196,7 +196,7 @@ This project provides a solid foundation for managing information related to the
 
 <ul align="justify">
   <li><a href="https://github.com/David-Nogueira/SteamDB-SQL_Project-Cesae_Digital/raw/main/SteamDB%20-%20SQL%20Project%20-%20Cesae%20Digital.pdf" download>Click here to download the PDF report</a></li>
-  <li><a href="https://github.com/David-Nogueira/SteamDB-SQL_Project-Cesae_Digital/raw/main/SteamDB%20-%20SQL%20Project%20-%20Cesae%20Digital.sql" download>Click here to view the SQL file</a></li>
+  <li><a href="https://github.com/David-Nogueira/SteamDB-SQL_Project-Cesae_Digital/blob/main/SteamDB%20-%20SQL%20Project%20-%20Cesae%20Digital.sql" download>Click here to view the SQL file</a></li>
 </ul>
 
 <h2 align="left">
